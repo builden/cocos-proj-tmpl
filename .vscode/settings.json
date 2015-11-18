@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.fontSize": 18,
+  "editor.wrappingColumn": 0,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "frameworks/cocos2d-x/**": true,
+    "frameworks/runtime-tools/**": true
+  },
+
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "frameworks/cocos2d-x/**": true,
+    "frameworks/runtime-tools/**": true,
+    "publish/**": true,
+    "**/*.map": true,
+    "**/src-docs": true,
+    "src/app.*": true,
+    "src/vendors.*": true
+  },
+
+  "eslint.enable": true
+}
